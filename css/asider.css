@@ -1,0 +1,94 @@
+.asider .icon{
+	width:inherit;
+	height:75px;
+}
+
+.asider .icon p{
+	display:inline-block;
+	float:left;
+	padding:0px;
+	margin:0px;
+	line-height: 73px;
+	font-size: 12px;
+	font-family:SimHei;
+	color:rgb(226,226,226);
+	
+}
+.asider .icon img{
+	display:inline-block;
+	float:left;
+	padding:0px;
+	margin-left:40px;
+	line-height: 73px;
+}
+.asider .message {
+	height:75px;
+	font-size:12px;
+	font-family:SimHei;
+	color:rgb(110,128,149);
+	padding-left:45px;
+}
+
+.asider .message p{
+	float:left;
+	line-height: 22px;
+	margin: 16px 20px;
+}
+
+.asider .message>div{
+	float:left;
+	width:2px;
+	height:41px;
+	margin:17px 10px;
+	background-color:rgb(110,128,149);
+}
+.personal_report{
+	padding-left:63px;
+	line-height:30px;
+	list-style-image: url(../image/report.jpg);
+	height: 191px;
+	background-color:rgb(56,61,78);
+	color:rgb(186,186,190);
+ 	font-size:12px;
+ 	font-family:SimHei;
+}
+.personal_report .files{
+	padding-left:0px;
+	list-style-image: url(../image/file.png);
+	
+}
+.personal_report .files img:hover{
+	transform:rotate(90deg);
+}
+.personal_report .files  img{
+	margin-top:8px;
+	float:left;
+}
+.personal_report .files  li{
+	margin-left:35px;
+}
+.personal_report .files .sheet{
+	padding-left:0px;
+	list-style-image: url(../image/sheet.png);
+}
+
+.personal_report .files .sheet li{
+	margin-left:18px;
+	
+}
+.collect,.share,.msg {
+	font-size:12px;
+	font-family:SimHei;
+	margin:0px 45px;
+	padding-left:18px;
+	line-height:50px;
+	height:50px;
+	list-style-image: url(../image/star.png);
+	color:rgb(110,128,149);
+}
+.share{
+	list-style-image: url(../image/share.jpg);
+}
+.msg{
+	list-style-image: url(../image/msg.jpg);
+}

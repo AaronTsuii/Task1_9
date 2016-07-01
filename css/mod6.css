@@ -1,0 +1,112 @@
+.mod6 .mod-title{
+	background-color:rgb(238,238,237);
+	border-radius: 5px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.mod6 .choose{
+	height:40px;
+	width:311px;
+	margin: 0px auto;
+	border-bottom:rgb(169,207,236) 2px solid;
+}
+
+.choose select{
+	float:left;
+	height:23px;
+	width:64px;
+	margin:8px 0px;
+  	-moz-appearance:none;
+  	-webkit-appearance:none;
+  	font-size:12px;
+	font-family:SimHei;
+	/*font-weight:bold;*/
+	color:#535353;
+}
+.choose .year{
+	background: url(../image/down.jpg) no-repeat  right top ;
+	margin-right: 5px;
+}
+
+.choose .month{
+	height:21px;
+	float: left;
+	margin-top:8px;
+	margin-right: 4px;
+	width:88px;
+	border: #AAAAAA 1px solid;
+}
+.choose .month input{
+	float:left;
+	height:21px;
+	width:20px;
+	padding:0px;
+	margin:0px ;
+	border:none;
+	background: url(../image/month-before.jpg) no-repeat center ;
+}
+
+.choose .month .month-after{
+	background: url(../image/month-after.jpg) no-repeat center ;
+}
+.choose .month select{
+	height:21px;
+	margin:0px;
+	float:left;
+	width:46px;
+	border:none;
+	background: url(../image/down.jpg) no-repeat  right top ;
+}
+.choose .day{
+	width:80px;
+	background: url(../image/down.jpg) no-repeat  right top ;
+	margin-right: 4px;
+	
+}
+.mod6 .week {
+	height:30px;
+	width:311px;
+	margin: 0px auto;
+	border-bottom:rgb(238,238,237) 2px solid;
+}
+.mod6 .week tbody{
+	height:30px;
+	border:none;
+	padding:0px;
+}
+.mod6 .week td{ 
+	height:28px;
+	width:44px;
+	margin: 0px auto;
+	padding:0px;
+	font-size:12px;
+	font-family:SimHei;
+	color:#535353;
+	text-align: center;
+}
+.mod6 .cal{
+	width:311px;
+	height:230px;
+	margin:0px auto;
+	border-spacing:1px 1px;
+}
+.mod6 .cal  td{
+	height:42px;
+	width:42px;
+	margin: 0px auto;
+	border:#FFFFFF 1px solid ;
+	font-size:12px;
+	font-family:SimHei;
+	/*font-weight:bold;*/
+	color:#535353;
+	text-align: center;
+}
+.mod6 .cal  td span{
+	
+	color:#c9161d;
+	
+}
+.mod6 .cal .sel{
+	border:rgb(247,213,100) 1px solid ;
+}

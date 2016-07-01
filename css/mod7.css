@@ -1,0 +1,110 @@
+.mod7 .mod-title{
+	background-color:rgb(238,238,237);
+	border-radius: 5px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.mod7 table{
+	width:450px;
+	height:280px;
+	margin:18px auto;
+	line-height:24px;
+	font-family:SimHei;
+	border: #C3C2C2 1px solid;
+	border-bottom:none;
+	border-collapse:collapse;
+	
+}
+.mod7 .rank{
+	width:65px;
+}
+.mod7 .ban{
+	width:90px;
+}
+.mod7 table tr:active{
+	background-color:rgb(220,220,220);
+	cursor:pointer;
+}
+.mod7 table th{
+	
+	height:24px;
+	font-weight:normal;
+	font-size:13px;
+	color:#231815;
+	border-top:#C3C2C2 1px solid;
+	border-right:#C3C2C2 1px solid;
+}
+.mod7 table td{
+	height:23px;
+	line-height:23px;
+	font-size:12px;
+	color:#323333;
+	border-top:#C3C2C2 1px solid;
+	border-right:#C3C2C2 1px solid;
+	text-align: center;
+}
+
+.mod7 table div{
+	position:relative;
+	height:5px;
+	width:160px;
+	background-color: #C3C2C2;
+	display:inline-block;
+	margin-left:20px;
+}
+
+.mod7 table div .in1,
+.mod7 table div .in2,
+.mod7 table div .in3,
+.mod7 table div .in4,
+.mod7 table div .in5,
+.mod7 table div .in6,
+.mod7 table div .in7,
+.mod7 table div .in8,
+.mod7 table div .in9,
+.mod7 table div .in10
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	height:5px;
+	width:141px;
+	margin-left:0px;
+	background-color:rgb(127,203,240);
+}
+.mod7 table div .in1{
+	background-color:rgb(226,109,81);
+}
+
+.mod7 table div .in2{
+	width:121px;
+	background-color:rgb(239,129,80);
+}
+
+.mod7 table div .in3{
+	width:104px;
+	background-color:rgb(241,159,79);
+}
+
+.mod7 table div .in4{
+	width:96px;
+}
+.mod7 table div .in5{
+	width:86px;
+}
+.mod7 table div .in6{
+	width:75px;
+}
+.mod7 table div .in7{
+	width:65px;
+}
+.mod7 table div .in8{
+	width:63px;
+}
+.mod7 table div .in9{
+	width:56px;
+}
+.mod7 table div .in10{
+	width:53px;
+}

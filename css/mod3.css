@@ -1,0 +1,63 @@
+
+.mod3>div{
+	width:197px;
+	height:71px;
+	float: left;
+	font-family:SimHei;
+	font-size:12px;
+	background-color: white;
+}
+
+.mod3 .word{
+	width: 40px;
+	height:100%;
+	float: left;
+	margin-left:12px;
+	
+}
+.mod3 p {
+	margin-top:15px;
+	color: rgb(131,137,149);
+}
+
+.mod3 p>span{
+	font-size:10px;
+	color:rgb(207,207,207);
+	margin-top:12px;
+}
+.mod3 .col1{
+	border-left:rgb(67,178,157) solid 4px;
+	margin-right:29px;
+}
+
+.mod3 .col2{
+	border-left:rgb(56,139,194)solid 4px;
+	margin-right:29px;
+}
+.mod3 .col3{
+	border-left:rgb(208,75,55) solid 4px;
+	margin-right:29px;
+}
+.mod3 .col4{
+	border-left:rgb(226,205,70) solid 4px;
+}
+
+.mod3 .col1 .clr,.mod3 .col2 .clr,.mod3 .col3 .clr,.mod3 .col4 .rcl{
+	width:61px;
+	height:47px;
+	float:right;
+	margin-top:12px;
+	margin-right: 15px;
+}
+.mod3 .col1  .clr {
+	background-color: rgb(67,178,157);
+}
+.mod3 .col2 .clr{
+	background-color:rgb(56,139,194);
+}
+.mod3 .col3 .clr{
+	background-color:rgb(208,75,55);
+}
+.mod3 .col4 .clr{
+	background-color:rgb(226,205,70);
+}

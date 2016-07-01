@@ -1,0 +1,84 @@
+.mod5 .mod-title{
+	background-color:rgb(238,238,237);
+	border-radius: 5px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.mod5 .row1{
+	height:46px;
+	width:280px;
+	margin:0px auto;
+	font-size:12px;
+	font-family:Microsoft Yahei;
+	color:#c3c2c2;
+	padding-top:12px;
+}
+.mod5 .row1 p {
+	margin:0px;
+}
+.mod5  p span{
+	color:#535353;
+}
+
+.mod5 .row2{
+	height:45px;
+	width:280px;
+	margin:0px auto;
+	font-size:12px;
+	font-family:Microsoft Yahei;
+	color:#c3c2c2;
+	border-bottom: rgb(238,238,237) 1px solid;
+	border-top: rgb(238,238,237) 1px solid;
+}
+.mod5 .row2 .rl{
+	float:left;
+	width:90px;
+	height:100%;
+	margin-right:5px;
+	border-right: rgb(238,238,237) 1px solid;
+}
+.mod5 .row2 p {
+	margin:0px;
+	line-height:18px;
+}
+.mod5 .row3{
+	height:145px;
+	width:280px;
+	margin:0px auto;
+	border-bottom: rgb(238,238,237) 1px solid;
+	font-size:12px;
+	font-family:Microsoft Yahei;
+	color:#c3c2c2;
+}
+.mod5 .row3 p {
+	margin:0px;
+}
+
+.mod5 .row4{
+	height:45px;
+	width:280px;
+	margin:0px auto;
+	font-size:12px;
+	font-family:Microsoft Yahei;
+	color:#c3c2c2;
+}
+
+.mod5 .sub{
+	float:right;
+	margin-top:5px;
+}
+
+.mod5 .ac{
+	width:14px;
+	height:14px;
+	background-color:#AAAAAA;
+	border:#C3C2C2 1px solid;
+	margin-top:10px;
+	margin-right:10px;
+	outline:none;
+}
+.mod5 .ac:active{
+	/*background-color:#ffffff;*/
+	background-image:url(../image/accept.jpg);
+}

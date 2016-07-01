@@ -1,0 +1,76 @@
+.mod2{
+	font-size:12px;
+	font-family:Microsoft Yahei;
+}
+.info{
+	float:right;
+	width:111px;
+	height:65px;
+	padding-left:20px;
+	background-color:#FFFFFF;
+	color: rbg(83,83,83);
+}
+.info p{
+	display:inline-block;
+	margin:0px;
+	line-height: 65px;
+}
+.info img{
+	vertical-align: middle;
+}
+
+.ahead,.behind{
+	float: left;
+	height:inherit;
+	margin-right:4px;
+	width:31px;
+	background-color:#FFFFFF;
+	
+}
+
+.ahead input,.behind input{
+	height:inherit;
+	width:31px;
+	border:none;
+	background:url(../image/before.jpg) no-repeat  center;
+	outline: none;/*消除点击时产生的蓝色边框*/
+}
+
+.behind input{
+	background:url(../image/after.jpg) no-repeat  center;
+	
+}
+
+.history ul{
+	list-style:none;
+	float:left;
+	padding:0px;
+	margin: 0px;
+}
+.history ul li {
+	float: left;
+}
+.history ul li a{
+	display:inline-block;
+	width:111px;
+	height:53px;
+	margin: 0px 4px 0px 0px;
+	padding-top:8px;
+	background-color:#FFFFFF;
+	border-top:#FFFFFF solid 4px;
+	text-decoration: none;
+	color:rgb(102,102,102);
+	text-align: center;
+	font-weight:bold;
+}
+
+.history ul li a span{
+	font-size:21px;
+	color:#ec6500;
+	font-weight:normal;
+	margin-left:-5px;
+}
+.history ul li a:hover{
+	
+	border-top:rgb(56,139,194) solid 4px;
+}
